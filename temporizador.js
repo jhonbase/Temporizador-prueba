@@ -37,6 +37,8 @@ function startTimer() {
     document.getElementById("hours").innerText = formatTime(hours);
     document.getElementById("minutes").innerText = formatTime(minutes);
     document.getElementById("seconds").innerText = formatTime(seconds);
+
+    document.title = "Estreno en: " + formatTime(days) + "d " + formatTime(hours) + "h " + formatTime(minutes) + "m " + formatTime(seconds) + "s";
   }
 
   // Función para formatear el tiempo (agregar 0 si es menor a 10)
