@@ -1,4 +1,4 @@
-const targetDate = new Date('2025-09-04T09:00:00'); // Año, mes, día, hora, minuto, segundo
+const targetDate = new Date('2026-05-26T24:00:00'); // Año, mes, día, hora, minuto, segundo
 
 function startTimer() {
   function updateTimer() {
